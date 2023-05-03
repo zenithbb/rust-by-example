@@ -10,7 +10,7 @@ The `fmt::Debug` `trait` makes this very straightforward. *All* types can
 not true for `fmt::Display` which must be manually implemented.
 
 ```rust
-// This structure cannot be printed either with `fmt::Display` or
+// This structure cannot be printed either with `fmt::Display` nor
 // with `fmt::Debug`.
 struct UnPrintable(i32);
 
